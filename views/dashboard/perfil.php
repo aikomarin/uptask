@@ -10,7 +10,7 @@
     </div>
     <div class="campo">
         <label for="email">Email</label>
-        <input type="email" name="email" value="<?php echo $usuario->email; ?>" placeholder="Tu Email">
+        <input type="email" name="email" value="<?php echo $usuario->email; ?>" placeholder="Tu Email" disabled>
     </div>
     <input type="submit" value="Guardar cambios">
     </form>
